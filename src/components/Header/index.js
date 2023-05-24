@@ -11,11 +11,7 @@ export default function Header(props) {
     <header className="header contain">
       <h1 className="logo-container">
         <Link to="/">
-          <img
-            className="logo-image"
-            src={logo}
-            alt="Ken Frieson Photography and Videography"
-          />
+          <img className="logo-image" src={logo} alt="MediaMix Group" />
         </Link>
       </h1>
       <MenuBar key={props.location.key} menu={props.menu} />

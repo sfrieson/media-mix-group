@@ -1,6 +1,6 @@
 /* global gtag */
 
-const GA_MEASUREMENT_ID = "UA-93839542-1";
+const GA_MEASUREMENT_ID = "G-ZKZ7SEVHW4";
 
 const analytics = {
   pageview: function (pagePath) {
