@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px solid #000;
+}
+
+.logo-container {
+  margin: 1rem .5rem 0;
+  text-align: center;
+}
+
+.logo-image {
+  width: 12rem;
+}
+
+@media (min-width: 850px) {
+  .logo-image {
+    width: 16rem;
+  }
+  .logo-container {
+    text-align: left;
+  }
+}

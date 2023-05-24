@@ -1,0 +1,36 @@
+.heading {
+  font-weight: normal;
+  padding-left: .5em;
+}
+
+.bio,
+.contact-info {
+  padding: 1rem;
+}
+
+.contact__image {
+  flex: 1 0 auto;
+  float: right;
+  padding-left: 1em;
+  max-width: 50%;
+}
+
+@media (min-width: 500px) {
+  .contact__image {
+    float: none;
+    padding: none;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 850px) {
+  .contact__page {
+    display: flex;
+  }
+  .contact__image {
+    flex: 1 0 auto;
+  }
+  .contact__body {
+    flex: 0 1 100%;
+  }
+}

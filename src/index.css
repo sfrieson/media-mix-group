@@ -1,0 +1,50 @@
+:root {
+  font-size: 18px;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px; width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+#offscreen {
+  position: fixed;
+  left: -1000px;
+  width: 10px;
+}
+
+.contain {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+}

@@ -1,0 +1,8 @@
+.loading-container {
+  height: 60vh;
+  display: flex;
+}
+
+.loading-text {
+  margin: auto;
+}

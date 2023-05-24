@@ -1,0 +1,43 @@
+.lightbox {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.lightbox__close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 50px
+}
+
+.lightbox__controls {
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.lightbox__controls__button {
+  padding: .5rem;
+}
+
+.lightbox__stage {
+  display: inline-block;
+  max-height: 100vh;
+}
+.lightbox__stage img {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.lightbox__stage {
+  margin: auto;
+}
