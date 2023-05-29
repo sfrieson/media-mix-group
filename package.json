@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && echo media-mix-group.com > build/CNAME"
+    "deploy": "gh-pages -d build && echo mediamixgroup.com > build/CNAME"
   },
   "eslintConfig": {
     "extends": "react-app"
