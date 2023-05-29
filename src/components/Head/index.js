@@ -11,7 +11,7 @@ export class Head extends React.PureComponent {
   }
 
   render() {
-    document.title = this.props.title + " | KenFrieson.com";
+    document.title = this.props.title + " | MediaMixGroup.com";
     this.description.content =
       this.props.description || this.descriptionDefaultText;
     return null;

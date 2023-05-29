@@ -10,7 +10,7 @@ export default function ContactPage() {
     <>
       <Head
         title="Contact"
-        description="Get in touch with Ken Frieson for booking events, parties and more near Philadelphia."
+        description="Get in touch with MediaMix Group for booking events, parties and more near Philadelphia."
       />
       <div className="contain">
         <h2 className="heading">Contact</h2>
@@ -31,10 +31,11 @@ export default function ContactPage() {
               <a href="tel://6102202741">(610) 220-2741</a>
             </div>
             <p className="bio">
-              Ken Frieson is a visual content creator based in the Philadelphia
-              area. Ken is available for event photography and portraits. He's
-              also available for your video production needs. Feel free to
-              contact him to discuss your next project!
+              Ken Frieson, the founder of MediaMix Group, is a visual content
+              creator based in the Philadelphia area. MediaMix Group is
+              available for event photography and portraits. They're also
+              available for your video production needs. Feel free to contact
+              Ken to discuss your next project!
             </p>
           </div>
         </div>
