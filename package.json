@@ -18,8 +18,8 @@
     "lint-fix": "semistandard --fix",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && echo mediamixgroup.com > build/CNAME"
+    "predeploy": "npm run build && echo mediamixgroup.com > build/CNAME",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
