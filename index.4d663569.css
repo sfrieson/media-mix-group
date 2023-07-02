@@ -139,9 +139,10 @@ img, video {
 
 .home-bg:before {
   content: "";
-  opacity: .15;
+  opacity: .1;
   z-index: -1;
   background-image: url("home-bg.6f760d13.jpg");
+  background-position: center;
   background-size: cover;
   display: block;
   position: absolute;
