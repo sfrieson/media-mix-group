@@ -1,0 +1,2 @@
+var e;e={tpi:"https://player.vimeo.com/video/1158215889?autoplay=1",unsung:"https://player.vimeo.com/video/1154069665?autoplay=1",christmas:"https://player.vimeo.com/video/1154067049?autoplay=1",masked:"https://player.vimeo.com/video/1154065478?autoplay=1",ayla:"https://player.vimeo.com/video/1154064401?autoplay=1"},document.querySelectorAll("button").forEach(function(t){t.addEventListener("click",function(t){var o,a=t.currentTarget.dataset.videoKey;a&&a in e&&(o=e[a],document.querySelector("iframe").src=o)})});
+//# sourceMappingURL=video.b6a3a33a.js.map

@@ -1,0 +1,2 @@
+const e={tpi:"https://player.vimeo.com/video/1158215889?autoplay=1",unsung:"https://player.vimeo.com/video/1154069665?autoplay=1",christmas:"https://player.vimeo.com/video/1154067049?autoplay=1",masked:"https://player.vimeo.com/video/1154065478?autoplay=1",ayla:"https://player.vimeo.com/video/1154064401?autoplay=1"};document.querySelectorAll("button").forEach(t=>{t.addEventListener("click",t=>{let o=t.currentTarget.dataset.videoKey;if(o&&o in e){var a;a=e[o],document.querySelector("iframe").src=a}})});
+//# sourceMappingURL=video.501a00bf.js.map
